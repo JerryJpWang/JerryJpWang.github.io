@@ -5,6 +5,3 @@ title = 'About Uncle Jerry'
 +++
 
 Hello this is your Uncle Jerry AKA "ordinary fat nerd"
-
-I couldn't found this post
-

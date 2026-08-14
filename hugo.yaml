@@ -78,8 +78,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Uncle Jerry."
-    subtitle: "I build things for the web"
-    content: "A passionate developer. Update this section with your own introduction."
+    subtitle: "Technical Program Manager & Software Engineer"
+    content: "11+ years building and delivering software across FinTech, payments, and enterprise systems. Today I focus on Technical Program / Project Management — driving cross-team roadmaps, Azure DevOps/CI-CD, observability, and security initiatives from planning through production."
     image: /images/hero.jpg
     bottomImage:
       enable: true
@@ -100,14 +100,25 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      Write a short introduction about yourself here.
+      I'm a software engineer turned technical program manager with 11+ years of experience spanning software development, systems integration, and technical delivery.
+
+      In recent years I've focused on Technical Program / Project Management, driving cross-department, cross-system technical initiatives from planning through execution and production rollout. My domain experience covers FinTech and payments, credit card authorization platforms, Azure cloud, DevOps/CI-CD, observability, security governance, and FinOps cost optimization — managing roadmaps, risk, dependencies, and change/release processes while aligning engineering, product, business, and operations stakeholders.
+
+      I've led third-party payment integrations, CI/CD automation, Prometheus/Grafana observability rollouts, Azure FinOps cost optimization, and security remediation programs — consistently improving transaction success rates, deployment efficiency, system stability, and cost efficiency.
+
+      I hold PMP, PMI-ACP, and LPIC Level 1 certifications, combining technical depth with program delivery capability.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few areas I've been working in recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
+        - "Technical Program Management"
+        - "Azure Cloud"
+        - "DevOps / CI-CD"
+        - "Observability (Prometheus / Grafana)"
+        - "FinTech & Payments"
+        - "C# / .NET"
+        - "FinOps"
+        - "PMP / PMI-ACP"
 
   # Experience
   experience:

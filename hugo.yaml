@@ -76,10 +76,10 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Uncle Jerry."
-    subtitle: "Technical Program Manager & Software Engineer"
-    content: "11+ years building and delivering software across FinTech, payments, and enterprise systems. Today I focus on Technical Program / Project Management — driving cross-team roadmaps, Azure DevOps/CI-CD, observability, and security initiatives from planning through production."
+    intro: "嗨，我是"
+    title: "Uncle Jerry。"
+    subtitle: "Technical Program Manager ｜ 資深軟體工程師"
+    content: "具備 11+ 年軟體開發、系統整合與技術交付經驗，近年聚焦於 Technical Program / Project Management，擅長推動跨部門、跨系統之技術專案規劃、執行與落地。"
     image: /images/hero.jpg
     bottomImage:
       enable: false
@@ -97,40 +97,130 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    title: "關於我"
     image: "/images/me.jpg"
     content: |-
-      I'm a software engineer turned technical program manager with 11+ years of experience spanning software development, systems integration, and technical delivery.
+      我是王敬平（Jerry），一位由軟體工程師轉型的 Technical Program Manager，具備 11+ 年橫跨軟體開發、系統整合與技術交付的經驗。
 
-      In recent years I've focused on Technical Program / Project Management, driving cross-department, cross-system technical initiatives from planning through execution and production rollout. My domain experience covers FinTech and payments, credit card authorization platforms, Azure cloud, DevOps/CI-CD, observability, security governance, and FinOps cost optimization — managing roadmaps, risk, dependencies, and change/release processes while aligning engineering, product, business, and operations stakeholders.
+      近年專注於 Technical Program / Project Management，主導跨部門、跨系統的技術專案規劃、執行與落地，範疇涵蓋 FinTech / 支付、信用卡授權平台、Azure 雲端、DevOps / CI-CD、系統可觀測性、資安治理與 FinOps 成本優化。擅長管理 roadmap、風險、相依性與 change / release 流程，並協調工程、產品、業務、維運等利害關係人共同完成交付。
 
-      I've led third-party payment integrations, CI/CD automation, Prometheus/Grafana observability rollouts, Azure FinOps cost optimization, and security remediation programs — consistently improving transaction success rates, deployment efficiency, system stability, and cost efficiency.
+      曾主導第三方支付整合、CI/CD 自動化、Prometheus / Grafana 監控治理、Azure FinOps 成本優化與資安修補計畫，持續提升交易成功率、部署效率、系統穩定性與成本效益。
 
-      I hold PMP, PMI-ACP, and LPIC Level 1 certifications, combining technical depth with program delivery capability.
+      具備 PMP、PMI-ACP、LPIC Level 1 認證，兼具技術深度與 program delivery 能力。
     skills:
       enable: true
-      title: "Here are a few areas I've been working in recently:"
+      title: "近期專注的領域："
       items:
         - "Technical Program Management"
-        - "Azure Cloud"
+        - "Azure 雲端架構"
         - "DevOps / CI-CD"
-        - "Observability (Prometheus / Grafana)"
-        - "FinTech & Payments"
+        - "可觀測性（Prometheus / Grafana）"
+        - "FinTech 與支付整合"
         - "C# / .NET"
-        - "FinOps"
+        - "FinOps 成本優化"
         - "PMP / PMI-ACP"
 
   # Experience
   experience:
-    enable: false
+    enable: true
+    title: "工作經驗"
+    items:
+      - company: "台新國際商業銀行股份有限公司"
+        companyUrl: "https://www.taishinbank.com.tw"
+        jobs:
+          - name: "資深工程師（Project Leader）"
+            date: "2025/6 - 至今"
+            content: |-
+              - 負責信用卡授權平台相關 change requests 與系統優化交付，涵蓋需求釐清、技術方案協作、測試驗證、上線規劃與跨團隊溝通
+              - 建立 Prometheus/Grafana 可觀測性監控機制，並開發 .NET 監控服務與告警規則，提升事件偵測能力並縮短問題發現時間（MTTD）
+              - 主導年度弱點掃描與第三方元件漏洞修補計畫，協調開發、維運與資安單位完成整改，降低潛在資安風險
+              - 推動小額支付黑名單管理等多項關鍵功能/CR 順利上線，確保交付品質、系統穩定度與合規性
+              - 在高可用與高交易量環境中，持續改善授權平台的穩定性、可監控性與交付效率
+      - company: "奇雲國際股份有限公司"
+        jobs:
+          - name: "資訊技術經理"
+            date: "2024/12 - 2025/5（6 個月）"
+            content: |-
+              - 帶領 3 個跨職能工作團隊推動系統重構與交付流程優化，導入 Git Flow 與協作規範，使開發週期縮短 20%
+              - 主導 Azure FinOps 成本優化專案，重新檢視儲存架構並將 Table Storage 遷移至 Blob Archive，成功降低雲端成本 40%
+              - 建立架構與流程面的主動監控機制，提升問題預警與服務穩定性 25%
+              - 協調技術團隊與管理層，整合交付節點、技術依賴與優先順序，提升整體交付可預測性
+      - company: "研華股份有限公司"
+        companyUrl: "https://www.advantech.com"
+        jobs:
+          - name: "資深工程師"
+            date: "2023/12 - 2024/8（9 個月）"
+            content: |-
+              - 主導 Azure DevOps CI/CD 流程建置，整合 Microsoft Teams 通知機制，使部署時間縮短 50%，提升發布效率與透明度
+              - 協助業務與產品團隊導入 PayPal 重複授權功能，串接需求、技術實作與驗證流程，提升使用者體驗並帶動使用率成長 15%
+              - 建置 Azure Front Door WAF 規則，並優化 MS SQL 與 API 效能，提升整體系統效能 20%
+              - 支援多角色協作情境下的需求落地與技術交付，強化產品功能導入速度與平台穩定性
+      - company: "軒昂有限公司"
+        jobs:
+          - name: "IT Consultant（Project Leader）"
+            date: "2018/6 - 2023/4（4 年 11 個月）"
+            content: |-
+              - 負責 Neteller、Skrill 等第三方支付整合專案，規劃與執行 API 串接流程，提升交易成功率 10%
+              - 推動 Jenkins 自動化部署流程，將人工部署作業降低 80%，改善交付效率與發布一致性
+              - 導入 Storybook UI 元件治理機制，提升前端開發重用性與協作效率，開發效率提升 25%
+              - 長期參與跨團隊產品交付、問題追蹤與需求協調，支援支付相關系統持續迭代與穩定營運
+      - company: "台灣微軟股份有限公司"
+        companyUrl: "https://www.microsoft.com/zh-tw"
+        jobs:
+          - name: "Consultant V-"
+            date: "2017/6 - 2018/6（1 年 1 個月）"
+            content: |-
+              - 推動醫療 HIS 專案導入 Agile / Scrum 協作模式，以 3 週 Sprint 管理 backlog、需求拆解與衝刺規劃，協助 7 人開發團隊提升交付節奏
+              - 成功交付核心醫療系統功能，完成可用性驗測並達成高使用者滿意度（95%）
+              - 協助既有系統轉型至 .NET Core + Vue.js 架構，提升系統可維護性、擴充性與長期演進能力
+              - 作為顧問角色銜接使用單位與技術團隊，協助需求釐清、導入規劃與問題排除
+      - company: "麥奇數位股份有限公司"
+        jobs:
+          - name: "軟體工程師"
+            date: "2016/6 - 2017/6（1 年 1 個月）"
+            content: |-
+              - 擔任 Senior Consultant，於 tutorABC 顧問管理系統與教室排程系統快速變動期間，建立解決方案交付流程
+              - 擔任導師，撰寫技術新人訓練手冊並舉辦訓練課程，協助新進工程師快速上手
+              - 支援 24/7 即時教室排程系統，快速解決生產環境問題
+      - company: "鴻揚科技有限公司"
+        jobs:
+          - name: "軟體工程師"
+            date: "2013/9 - 2016/5（2 年 9 個月）"
+            content: |-
+              - 負責台新銀行 SPTS 系統使用者訓練與推廣，舉辦跨部門訓練課程並製作功能專屬手冊，提升行政效率
+              - 主導 WinForm 遺留系統遷移至 .NET MVC，優化使用者介面設計與效能調整
+      - company: "經國管理學院 資訊組"
+        jobs:
+          - name: "資訊組員 / 全端工程師"
+            date: "2012/12 - 2013/8（9 個月）"
+            content: |-
+              開發學校行政管理系統，支援跨部門協作
 
   # Education
   education:
-    enable: false
+    enable: true
+    title: "學歷"
+    items:
+      - title: "資訊管理學系"
+        school:
+          name: "國立澎湖科技大學"
+        date: "2007/9 - 2011/9"
+        content: |-
+          大學畢業
 
   # Achievements
   achievements:
-    enable: false
+    enable: true
+    title: "資格認證與獲獎"
+    items:
+      - title: "PMP 國際專案管理師"
+        content: "PMI 國際專案管理學會"
+      - title: "PMI-ACP 敏捷專案管理師"
+        content: "PMI 國際專案管理學會"
+      - title: "LPIC Level 1"
+        content: "Linux 專業認證"
+      - title: "第 16 屆 iThome 鐵人賽佳作"
+        content: "佛心分享組別獲獎"
 
   # projects
   projects:
@@ -139,9 +229,10 @@ params:
   #Contact
   contact:
     enable: true
-    content: "My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!"
-    btnName: Mail me
-    btnLink: mailto:example@example.com
+    title: "聯絡我"
+    content: "歡迎與我聯繫，無論是工作機會、專案合作或任何問題，我都會盡快回覆！"
+    btnName: 寄信給我
+    btnLink: mailto:jerry.jp.wang@gmail.com
 
   footer:
     recentPosts:

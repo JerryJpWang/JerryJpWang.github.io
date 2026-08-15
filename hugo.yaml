@@ -82,7 +82,7 @@ params:
     content: "11+ years building and delivering software across FinTech, payments, and enterprise systems. Today I focus on Technical Program / Project Management — driving cross-team roadmaps, Azure DevOps/CI-CD, observability, and security initiatives from planning through production."
     image: /images/hero.jpg
     bottomImage:
-      enable: true
+      enable: false
     button:
       enable: false
       name: "Resume"

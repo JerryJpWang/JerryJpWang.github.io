@@ -215,8 +215,12 @@ params:
     items:
       - title: "PMP 國際專案管理師"
         content: "PMI 國際專案管理學會"
+        image: "/images/badges/pmp.png"
+        url: "https://www.credly.com/badges/fcb23049-c5aa-4c65-825d-cbe54a68d34b"
       - title: "PMI-ACP 敏捷專案管理師"
         content: "PMI 國際專案管理學會"
+        image: "/images/badges/pmi-acp.png"
+        url: "https://www.credly.com/badges/3b84b7e5-80e4-4ed2-89e3-0717ba7fdab9"
       - title: "LPIC Level 1"
         content: "Linux 專業認證"
       - title: "第 16 屆 iThome 鐵人賽佳作"

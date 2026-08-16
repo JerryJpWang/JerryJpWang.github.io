@@ -1,0 +1,53 @@
+/* Warm editorial theme polish
+   Loaded after the theme's own stylesheets (see baseof.html), so it can
+   override CSS-variable-driven defaults without needing !important. */
+
+/* Hero headline: serif instead of the theme's default geometric Alata,
+   for a warmer, literary feel that matches the rest of the site. */
+#hero #primary-font h1,
+#hero #primary-font h2 {
+    font-family: "Lora", serif;
+}
+
+#hero .subtitle {
+    font-style: italic;
+}
+
+/* Replace the theme's cool teal-tinted shadows with a warm brown tint so
+   elevated cards/images feel consistent with the cream/terracotta palette. */
+#hero .image img,
+#about .image img,
+#single .featured-image img {
+    box-shadow: 0px 8px 56px rgba(120, 72, 36, 0.16);
+}
+
+#hero .image.animate img:hover,
+#about .image img:hover {
+    box-shadow: 0 0 11px rgba(120, 72, 36, 0.2);
+}
+
+#experience .experience-container {
+    box-shadow: 0px 8px 56px rgba(120, 72, 36, 0.16);
+}
+
+#education .card {
+    box-shadow: 0px 8px 56px rgba(120, 72, 36, 0.16);
+}
+
+#education .card:hover {
+    box-shadow: 0 4px 11px rgba(120, 72, 36, 0.16);
+}
+
+#contact form .form-control {
+    box-shadow: 0px 8px 56px rgba(120, 72, 36, 0.05);
+}
+
+#contact-form-status button,
+#contact-form-status .alert {
+    box-shadow: 0px 8px 56px rgba(120, 72, 36, 0.05);
+}
+
+/* Blog post quotes read like pull-quotes in a magazine. */
+#single .page-content blockquote {
+    font-style: italic;
+}

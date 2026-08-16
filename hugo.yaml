@@ -46,6 +46,7 @@ params:
   useBootstrapCDN: false
   mathjax: false
   animate: true
+  customCSS: true
 
   theme:
     # disableThemeToggle: true
@@ -54,8 +55,25 @@ params:
   font:
     fontSize: 1rem
     fontWeight: 400
-    lineHeight: 1.5
+    lineHeight: 1.7
     textAlign: left
+
+  color:
+    textColor: "#332821"
+    secondaryTextColor: "#7d6a5a"
+    textLinkColor: "#b8562b"
+    backgroundColor: "#f5efe6"
+    secondaryBackgroundColor: "#b8562b1a"
+    primaryColor: "#b8562b"
+    secondaryColor: "#fffcf7"
+    darkmode:
+      textColor: "#f0e6d9"
+      secondaryTextColor: "#c2b3a1"
+      textLinkColor: "#e08a4f"
+      backgroundColor: "#201a15"
+      secondaryBackgroundColor: "#e08a4f1a"
+      primaryColor: "#e08a4f"
+      secondaryColor: "#2b241d"
 
   navbar:
     align: ms-auto

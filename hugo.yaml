@@ -257,6 +257,21 @@ params:
     tags:
       openInNewTab: true
 
+  giscus:
+    enable: true
+    repo: "JerryJpWang/JerryJpWang.github.io"
+    repoId: "REPLACE_WITH_REPO_ID"
+    category: "Comments"
+    categoryId: "REPLACE_WITH_CATEGORY_ID"
+    mapping: "pathname"
+    strict: "0"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "bottom"
+    theme: "preferred_color_scheme"
+    lang: "zh-TW"
+    loading: "lazy"
+
   terms:
     read: "Read"
     toc: "Table Of Contents"

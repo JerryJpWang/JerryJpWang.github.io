@@ -260,9 +260,9 @@ params:
   giscus:
     enable: true
     repo: "JerryJpWang/JerryJpWang.github.io"
-    repoId: "REPLACE_WITH_REPO_ID"
-    category: "Comments"
-    categoryId: "REPLACE_WITH_CATEGORY_ID"
+    repoId: "R_kgDONKn-dA"
+    category: "Show and tell"
+    categoryId: "DIC_kwDONKn-dM4DDglA"
     mapping: "pathname"
     strict: "0"
     reactionsEnabled: "1"
